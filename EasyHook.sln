@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyHookLib", "EasyHookDll\EasyHookLib.vcxproj", "{3D36C376-AA07-4F4F-8BD3-929683488E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B40133BD-F6E3-45DA-8222-A739BA3740C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnmanagedHook", "Examples\UnmanagedHook\UnmanagedHook.vcxproj", "{7D74973E-8B83-42D3-B2EA-795AA0076C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Debug|Win32.Build.0 = Debug|Win32
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Debug|x64.ActiveCfg = Debug|x64
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Debug|x64.Build.0 = Debug|x64
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Release|Win32.ActiveCfg = Release|Win32
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Release|Win32.Build.0 = Release|Win32
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Release|x64.ActiveCfg = Release|x64
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B}.Release|x64.Build.0 = Release|x64
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Debug|Win32.Build.0 = Debug|Win32
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Debug|x64.ActiveCfg = Debug|x64
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Debug|x64.Build.0 = Debug|x64
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Release|Win32.ActiveCfg = Release|Win32
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Release|Win32.Build.0 = Release|Win32
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Release|x64.ActiveCfg = Release|x64
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D74973E-8B83-42D3-B2EA-795AA0076C9F} = {B40133BD-F6E3-45DA-8222-A739BA3740C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC601E0-15AF-41C2-8064-7444EC6663A1}
+	EndGlobalSection
+EndGlobal
