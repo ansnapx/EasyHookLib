@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B40133BD-F6E3-45DA-8222-A739BA3740C0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnmanagedHook", "Examples\UnmanagedHook\UnmanagedHook.vcxproj", "{7D74973E-8B83-42D3-B2EA-795AA0076C9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D36C376-AA07-4F4F-8BD3-929683488E8B} = {3D36C376-AA07-4F4F-8BD3-929683488E8B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
